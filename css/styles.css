@@ -81,8 +81,7 @@ header div{
 
 header a{
    position: absolute;
-   top: 100%;
-   margin-top: 40px;
+   bottom: 40px;
 }
 
 /*------------------------------------------------------------------------------
@@ -101,13 +100,12 @@ header a{
    justify-content: center;
    align-items: center;
    gap: 20px;
-
-   text-align: center;
 }
 
 .images a{
    width: 200px;
    margin: 10px 0;
+   text-align: center;
 }
 
 /* Header */
@@ -116,7 +114,40 @@ header a{
 
 /* Section sports */
 
+.sports{
+   background: url(../images/fond/bicycles.png);
+}
+
 /* Section web */
+
+.web{
+   background: url(../images/fond/science.png);
+}
+
+.web img{
+   width: 50%;
+}
+
+.web a{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.web .images{
+   padding-bottom: 50px;
+}
+
+.web .lien_float{
+   background:darkred;
+   padding: 10px;
+}
+
+.web .lien_float a:hover{
+   color: white;
+   text-decoration: underline;
+}
 
 /* Section photographie */
 
