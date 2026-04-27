@@ -16,6 +16,21 @@ html {
    Base
 ------------------------------------------------------------------------------*/
 
+body{
+   background: url(../images/fond/global.png) repeat;
+   font: 1rem "Oranienbaum", serif;
+   color: white;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+}
+
+a:hover{
+   color: darkorange;
+}
+
 /*------------------------------------------------------------------------------
    Mise en page
 ------------------------------------------------------------------------------*/
