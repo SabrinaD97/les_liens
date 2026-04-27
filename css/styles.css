@@ -151,4 +151,26 @@ header a{
 
 /* Section photographie */
 
+.photos{
+   background: url(../images/fond/fond.jpg) no-repeat center/cover;
+}
+
+.photos img{
+   width: 30%;
+}
+
+.photos a{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.photos .images{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 /* Bouton retour */
