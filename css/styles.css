@@ -31,6 +31,12 @@ a:hover{
    color: darkorange;
 }
 
+h2{
+   font: 2rem "Monoton", sans-serif;
+   margin: 0;
+   text-transform: uppercase;
+}
+
 /*------------------------------------------------------------------------------
    Mise en page
 ------------------------------------------------------------------------------*/
@@ -38,6 +44,10 @@ a:hover{
 header, section{
    min-height: 100vh;
    min-width: 100vw;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 /*----------------------------------------------------------------------------
@@ -48,30 +58,7 @@ h1{
    font: 6.25rem "Monoton", sans-serif;
 }
 
-section{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-/*------------------------------------------------------------------------------
-   Components
-------------------------------------------------------------------------------*/
-
-.boite{
-   width: 800px;
-   padding: 48px;
-   background: rgb(0, 0, 0, 0.8);
-   border-radius: 10px;
-}
-
-/* Header */
-
 header{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
    text-align: center;
    position: relative;
 }
@@ -87,6 +74,19 @@ header a{
    top: 100%;
    margin-top: 40px;
 }
+
+/*------------------------------------------------------------------------------
+   Components
+------------------------------------------------------------------------------*/
+
+.boite{
+   width: 800px;
+   padding: 48px;
+   background: rgb(0, 0, 0, 0.8);
+   border-radius: 10px;
+}
+
+/* Header */
 
 /* Section Générale */
 
