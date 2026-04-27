@@ -44,11 +44,8 @@ header, section{
     Elements
 ----------------------------------------------------------------------------*/
 
-.boite{
-   width: 800px;
-   padding: 48px;
-   background: rgb(0, 0, 0, 0.8);
-   border-radius: 10px;
+h1{
+   font: 6.25rem "Monoton", sans-serif;
 }
 
 section{
@@ -61,12 +58,34 @@ section{
    Components
 ------------------------------------------------------------------------------*/
 
+.boite{
+   width: 800px;
+   padding: 48px;
+   background: rgb(0, 0, 0, 0.8);
+   border-radius: 10px;
+}
+
 /* Header */
 
 header{
    display: flex;
    justify-content: center;
    align-items: center;
+
+   text-align: center;
+   position: relative;
+}
+
+header div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+header a{
+   position: absolute;
+   top: 100%;
+   margin-top: 40px;
 }
 
 /* Section Générale */
