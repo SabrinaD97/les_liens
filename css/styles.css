@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -52,6 +53,8 @@ header, section{
    display: flex;
    justify-content: center;
    align-items: center;
+
+   background-attachment: fixed;
 }
 
 /*----------------------------------------------------------------------------
@@ -119,13 +122,13 @@ header a{
 /* Section sports */
 
 .sports{
-   background: url(../images/fond/bicycles.png);
+   background-image: url(../images/fond/bicycles.png);
 }
 
 /* Section web */
 
 .web{
-   background: url(../images/fond/science.png);
+   background-image: url(../images/fond/science.png);
 }
 
 .web img{
@@ -156,7 +159,7 @@ header a{
 /* Section photographie */
 
 .photos{
-   background: url(../images/fond/fond.jpg) no-repeat center/cover;
+   background-image: url(../images/fond/fond.jpg) no-repeat center/cover;
 }
 
 .photos img{
@@ -178,3 +181,24 @@ header a{
 }
 
 /* Bouton retour */
+
+.haut{
+   width: 40px;
+   height: 40px;
+   background-color: rgb(255, 255, 255, 0.8);
+   border: white 4px solid;
+   border-radius: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: fixed;
+   bottom: 20px;
+   right: 15vw;
+}
+
+.haut:hover{
+   color: darkorange;
+   border: 4px solid darkorange;
+}
