@@ -58,6 +58,16 @@ h1{
    font: 6.25rem "Monoton", sans-serif;
 }
 
+h2 > span{
+   font: 1.0625rem "Oranienbaum", serif;
+   text-transform: none;
+}
+
+a img{
+   width: 100%;
+   padding-bottom: 10px;
+}
+
 header{
    text-align: center;
    position: relative;
@@ -84,6 +94,20 @@ header a{
    padding: 48px;
    background: rgb(0, 0, 0, 0.8);
    border-radius: 10px;
+}
+
+.images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+
+   text-align: center;
+}
+
+.images a{
+   width: 200px;
+   margin: 10px 0;
 }
 
 /* Header */
